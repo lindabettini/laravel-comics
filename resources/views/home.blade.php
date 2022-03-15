@@ -10,7 +10,7 @@
 
 <body>
   <header>
-    <div class="top-header"></div>
+    <div id="top-header"></div>
     <nav>
       <ul>
         @foreach ($pages as $title=>$route)
