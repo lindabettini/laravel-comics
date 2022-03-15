@@ -1,0 +1,30 @@
+header {
+    height: 80px;
+    background-color: white;
+    .container {
+        height: 100%;
+        nav {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
+img {
+    width: 60px;
+}
+
+ul {
+    list-style-type: none;
+    li {
+        display: inline-block;
+    }
+    li a {
+        padding: 10px;
+        &:hover {
+            border-bottom: 3px solid $main-color;
+        }
+    }
+}

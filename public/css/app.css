@@ -42,3 +42,34 @@ button.primary-btn {
   background-color: #0c7cec;
   border: 2px solid #0c7cec;
 }
+
+header {
+  height: 80px;
+  background-color: white;
+}
+header .container {
+  height: 100%;
+}
+header .container nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 60px;
+}
+
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  padding: 10px;
+}
+ul li a:hover {
+  border-bottom: 3px solid #0c7cec;
+}
