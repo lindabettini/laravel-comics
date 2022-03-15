@@ -4,17 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-
-    $data = [
-        'pages' => [
-            'Comics' => 'home',
-            'Characters' => 'characters',
-            'Games' => 'games',
-            'News' => 'news',
-        ],
-    ];
-
-    return view('home', $data);
+    return view('home');
 })->name('home');
 
 
