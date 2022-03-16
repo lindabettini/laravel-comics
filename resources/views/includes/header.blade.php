@@ -16,7 +16,7 @@ $links = config('main_menu');
 
   <div class="row">
     <div class="col">
-      <nav id="bottom-header">
+      <nav id="bottom-header" class="d-flex content-center align-center">
         <ul>
           @foreach ($links as $link)
           <li>
