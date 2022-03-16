@@ -10,7 +10,7 @@ $comics = config('comics_data');
     @foreach ($comics as $comic)
     <div class="col">
       <div class="comic-card">
-        <img src="{{$comic['thumb']}}" alt="">
+        <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
       </div>
     </div>
     @endforeach
