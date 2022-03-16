@@ -7,7 +7,7 @@ $comics = config('comics_data');
 @section('main')
 <section id="comics">
   <div class="container">
-    <div class="row">
+    <div class="row content-center">
       @foreach ($comics as $comic)
       <div class="col-2">
         <div class="comic-card">
@@ -18,6 +18,7 @@ $comics = config('comics_data');
         </div>
       </div>
       @endforeach
+      <div class="btn-container"><button class="primary-btn">LOAD MORE</button></div>
     </div>
   </div>
 </section>
