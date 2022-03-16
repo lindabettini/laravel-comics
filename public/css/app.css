@@ -269,6 +269,26 @@ button.primary-btn {
   padding: 30px;
 }
 
+.m-1 {
+  margin: 5px;
+}
+
+.m-2 {
+  margin: 10px;
+}
+
+.m-3 {
+  margin: 15px;
+}
+
+.m-4 {
+  margin: 20px;
+}
+
+.m-5 {
+  margin: 30px;
+}
+
 header #top-header {
   height: 40px;
   width: 100%;
@@ -379,23 +399,29 @@ header img {
   height: 80px;
   background-color: #222222;
 }
-
-.col-6 {
+#bottom-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+#bottom-footer .col-6 {
   width: 50%;
   height: 100%;
   display: flex;
   align-items: center;
 }
-
-#socials {
+#bottom-footer #socials {
   justify-content: flex-end;
 }
-
-a {
+#bottom-footer #socials h3 {
+  color: #0c7cec;
+  padding: 0 10px;
+}
+#bottom-footer a {
   padding: 5px;
 }
-
-h4 {
+#bottom-footer h4 {
   color: var(--primary-color);
 }
 
