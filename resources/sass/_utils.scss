@@ -1,6 +1,6 @@
 // ~ Utils
 
-/*~**** CONTAINER *****/
+//~**** CONTAINER *****/
 
 .container-fluid {
     width: 100%;
@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 
-/*~**** ROW *****/
+//~**** ROW *****/
 
 .row {
     display: flex;
@@ -21,9 +21,9 @@
     flex-wrap: wrap;
 }
 
-/*~**** COLUMN *****/
+//~**** COLUMN *****/
 
-/* < Regole comuni a tutte le colonne */
+//< Regole comuni a tutte le colonne */
 
 [class^="col"] {
     flex-grow: 0;
@@ -31,13 +31,13 @@
     flex-basis: auto;
 }
 
-/* < Colonne che si dividono lo spazio equamente */
+// < Colonne che si dividono lo spazio equamente */
 
 .col {
     flex-grow: 1;
 }
 
-/* < Colonne che occupano i 12esimi specificati */
+// < Colonne che occupano i 12esimi specificati */
 
 .col-1 {
     flex-basis: calc(100% / 12);
@@ -98,7 +98,8 @@
     max-width: 100%;
 }
 
-* ~ **** DISPLAY UTILITIES *****/ .d-none {
+//~ **** DISPLAY UTILITIES *****/ .d-none {
+.d-none {
     display: none;
 }
 
@@ -114,7 +115,7 @@
     display: block;
 }
 
-/*ç** Display Flex  ***/
+//ç** Display Flex  ***/
 
 .d-line-flex {
     display: inline-flex;
@@ -130,9 +131,9 @@
     flex-direction: column;
 }
 
-/*~**** ALIGNMENT UTILITIES *****/
+//~**** ALIGNMENT UTILITIES *****
 
-/*ç** Flex alignement ***/
+//ç Flex alignement ***
 
 .content-start {
     justify-content: flex-start;
@@ -170,7 +171,7 @@
     align-items: flex-end;
 }
 
-/* < Self */
+//  < Self
 
 .self-start {
     align-self: flex-start;
@@ -184,7 +185,7 @@
     align-self: flex-end;
 }
 
-/*ç** Text Alignement ***/
+//çText Alignement
 
 .txt-left {
     text-align: left;
@@ -198,7 +199,7 @@
     text-align: right;
 }
 
-/*ç** Font decoration - style ***/
+//ç Font decoration - style ***/
 
 .no-dec {
     text-decoration: none;
