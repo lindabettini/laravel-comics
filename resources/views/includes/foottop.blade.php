@@ -1,7 +1,16 @@
-<!-- <div id="top-footer">
+@php
+$nav = config('top_footer_nav');
+@endphp
+
+<div id="top-footer">
   <div class="container">
     <ul>
-    cards 
+      @foreach ($nav as $n)
+      <li class="card">
+        <img src="{{$n['img']}}" alt="{{$n['text']}}" />
+        <a href="#">{{ $n['text'] }}</a>
+      </li>
+      @endforeach
     </ul>
   </div>
-</div> -->
+</div>
