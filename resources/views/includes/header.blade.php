@@ -4,7 +4,7 @@ $links = config('main_menu');
 
 
 
-<header class="container">
+<header class="container-fluid">
   <div class="row">
     <div class="col">
       <div id="top-header" class="d-flex content-end">
