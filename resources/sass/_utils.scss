@@ -1,8 +1,230 @@
 // ~ Utils
+
+/*~**** CONTAINER *****/
+
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+}
+
 .container {
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
+/*~**** ROW *****/
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*~**** COLUMN *****/
+
+/* < Regole comuni a tutte le colonne */
+
+[class^="col"] {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+/* < Colonne che si dividono lo spazio equamente */
+
+.col {
+    flex-grow: 1;
+}
+
+/* < Colonne che occupano i 12esimi specificati */
+
+.col-1 {
+    flex-basis: calc(100% / 12);
+    max-width: calc(100% / 12);
+}
+.col-2 {
+    flex-basis: calc(100% / 12 * 2);
+    max-width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+    flex-basis: calc(100% / 12 * 3);
+    max-width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+    flex-basis: calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+    flex-basis: calc(100% / 12 * 5);
+    max-width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.col-7 {
+    flex-basis: calc(100% / 12 * 7);
+    max-width: calc(100% / 12 * 7);
+}
+
+.col-8 {
+    flex-basis: calc(100% / 12 * 8);
+    max-width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+    flex-basis: calc(100% / 12 * 9);
+    max-width: calc(100% / 12 * 9);
+}
+
+.col-10 {
+    flex-basis: calc(100% / 12 * 10);
+    max-width: calc(100% / 12 * 10);
+}
+
+.col-11 {
+    flex-basis: calc(100% / 12 * 11);
+    max-width: calc(100% / 12 * 11);
+}
+
+.col-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+* ~ **** DISPLAY UTILITIES *****/ .d-none {
+    display: none;
+}
+
+.d-line {
+    display: inline;
+}
+
+.d-line-blk {
+    display: inline-block;
+}
+
+.d-blk {
+    display: block;
+}
+
+/*ç** Display Flex  ***/
+
+.d-line-flex {
+    display: inline-flex;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/*~**** ALIGNMENT UTILITIES *****/
+
+/*ç** Flex alignement ***/
+
+.content-start {
+    justify-content: flex-start;
+}
+
+.content-center {
+    justify-content: center;
+}
+
+.content-end {
+    justify-content: flex-end;
+}
+
+.content-space-a {
+    justify-content: space-around;
+}
+
+.content-space-btn {
+    justify-content: space-between;
+}
+
+.content-space-evl {
+    justify-content: space-evenly;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+/* < Self */
+
+.self-start {
+    align-self: flex-start;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.self-end {
+    align-self: flex-end;
+}
+
+/*ç** Text Alignement ***/
+
+.txt-left {
+    text-align: left;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+/*ç** Font decoration - style ***/
+
+.no-dec {
+    text-decoration: none;
+}
+
+.txt-und {
+    text-decoration: underline;
+}
+
+.txt-ita {
+    font-style: italic;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+// ç VARIE
 
 .clickable {
     cursor: pointer;

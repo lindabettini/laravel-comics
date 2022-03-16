@@ -1,6 +1,13 @@
 header {
-    height: 80px;
-    background-color: white;
+    #top-header {
+        height: 20px;
+        width: 100%;
+        background-color: $main-color;
+    }
+    #bottom-header {
+        height: 80px;
+        background-color: white;
+    }
     .container {
         height: 100%;
         nav {
@@ -10,21 +17,22 @@ header {
             align-items: center;
         }
     }
-}
 
-img {
-    width: 60px;
-}
-
-ul {
-    list-style-type: none;
-    li {
-        display: inline-block;
-    }
-    li a {
-        padding: 10px;
-        &:hover {
-            border-bottom: 3px solid $main-color;
+    ul {
+        list-style-type: none;
+        li {
+            display: inline-block;
         }
+        li a {
+            padding: 10px;
+            color: black;
+            &:hover {
+                border-bottom: 3px solid $main-color;
+            }
+        }
+    }
+
+    img {
+        width: 60px;
     }
 }

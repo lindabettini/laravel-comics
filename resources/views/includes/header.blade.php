@@ -2,9 +2,11 @@
 $links = config('main_menu');
 @endphp
 
-<header>
-  <div id="top-header"></div>
-  <nav>
+
+
+<header class="container">
+  <div id="top-header">ciaoooooo</div>
+  <nav id="bottom-header">
     <ul>
       <li><a href="{{ url('/') }}">Comics</a></li>
       <li><a href="{{route('characters')}}">Character</a></li>
