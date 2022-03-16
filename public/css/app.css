@@ -424,6 +424,9 @@ h4 {
   overflow: hidden;
   margin-bottom: 15px;
 }
+.comic-card figure :hover {
+  cursor: pointer;
+}
 .comic-card a {
   color: white;
   text-decoration: none;

@@ -6,6 +6,9 @@
         width: 170px;
         overflow: hidden;
         margin-bottom: 15px;
+        :hover {
+            cursor: pointer;
+        }
     }
     a {
         color: white;
