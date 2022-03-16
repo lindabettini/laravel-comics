@@ -18,6 +18,12 @@ a {
   text-decoration: none;
 }
 
+#jumbotron {
+  background-image: url("../images/jumbotron.jpg");
+  height: 500px;
+  background-position: top;
+}
+
 .container-fluid {
   width: 100%;
   max-width: 100%;

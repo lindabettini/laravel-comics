@@ -12,13 +12,15 @@
 
 <body>
   @include('includes.header')
+  <div id="jumbotron"></div>
 
   <main></main>
 
   @include('includes.foottop')
   @include('includes.footmiddle')
   @include('includes.footbottom')
-  <script src="{{asset('js/app.js')}}"></script>
+  <script src=" {{asset('js/app.js')}}">
+  </script>
 </body>
 
 </html>
