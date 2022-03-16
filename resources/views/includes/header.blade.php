@@ -18,10 +18,11 @@ $links = config('main_menu');
     <div class="col">
       <nav id="bottom-header">
         <ul>
-          <li><a href="{{ url('/') }}">COMICS</a></li>
-          <li><a href="{{route('characters')}}">CHARACTERS</a></li>
-          <li><a href="{{route('games')}}">GAMES</a></li>
-          <li><a href="{{route('news')}}">NEWS</a></li>
+          @foreach ($links as $link)
+          <li>
+            <a href="{{route($link['route_name'])}}">{{$link['title']}}</a>
+          </li>
+          @endforeach
         </ul>
       </nav>
     </div>

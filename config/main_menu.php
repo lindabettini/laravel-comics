@@ -1,7 +1,7 @@
 <?php
 return [
-  ['title' => 'Comics', 'url' => '/', 'route_name' => 'home'],
-  ['title' => 'Characters', '/url' => 'characters', 'route_name' => 'url'],
-  ['title' => 'Games', 'url' => '/games', 'route_name' => 'games'],
-  ['title' => 'News', 'url' => '/news', 'route_name' => 'news']
+  ['title' => 'COMICS', 'url' => '/', 'route_name' => 'home'],
+  ['title' => 'CHARACTERS', 'url' => 'characters', 'route_name' => 'characters'],
+  ['title' => 'GAMES', 'url' => '/games', 'route_name' => 'games'],
+  ['title' => 'NEWS', 'url' => '/news', 'route_name' => 'news']
 ];
