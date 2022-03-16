@@ -14,7 +14,9 @@
   @include('includes.header')
   <div id="jumbotron"></div>
 
-  <main></main>
+  <main>
+    @yield('main')
+  </main>
 
   @include('includes.foottop')
   @include('includes.footmiddle')
