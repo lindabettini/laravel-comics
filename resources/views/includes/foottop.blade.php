@@ -7,7 +7,7 @@ $nav = config('top_footer_nav');
     <ul>
       @foreach ($nav as $n)
       <li class="card">
-        <img src="{{$n['img']}}" alt="{{$n['text']}}" />
+        <img src="{{asset($n['img'])}}" alt="{{$n['text']}}" />
         <a href="#">{{ $n['text'] }}</a>
       </li>
       @endforeach
