@@ -239,19 +239,36 @@ button.primary-btn {
   border: 2px solid #0c7cec;
 }
 
+.p-1 {
+  padding: 5px;
+}
+
+.p-2 {
+  padding: 10px;
+}
+
+.p-3 {
+  padding: 15px;
+}
+
+.p-4 {
+  padding: 20px;
+}
+
+.p-5 {
+  padding: 30px;
+}
+
 header #top-header {
-  height: 20px;
+  height: 40px;
   width: 100%;
   background-color: #0c7cec;
+  color: white;
 }
 header #bottom-header {
   height: 80px;
-  background-color: white;
 }
-header .container {
-  height: 100%;
-}
-header .container nav {
+header #bottom-header nav {
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -312,9 +329,6 @@ ul li a {
   background-size: cover;
 }
 
-.container {
-  display: flex;
-}
 .container .col-6 {
   width: 50%;
   height: 300px;
@@ -353,12 +367,6 @@ ul li a {
 #bottom-footer {
   height: 80px;
   background-color: #222222;
-}
-#bottom-footer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
 }
 
 .col-6 {

@@ -1,15 +1,13 @@
 header {
     #top-header {
-        height: 20px;
+        height: 40px;
         width: 100%;
         background-color: $main-color;
+        color: white;
     }
     #bottom-header {
         height: 80px;
-        background-color: white;
-    }
-    .container {
-        height: 100%;
+
         nav {
             height: 100%;
             display: flex;
