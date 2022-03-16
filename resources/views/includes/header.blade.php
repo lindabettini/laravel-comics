@@ -18,10 +18,10 @@ $links = config('main_menu');
     <div class="col">
       <nav id="bottom-header">
         <ul>
-          <li><a href="{{ url('/') }}">Comics</a></li>
-          <li><a href="{{route('characters')}}">Character</a></li>
-          <li><a href="{{route('games')}}">Games</a></li>
-          <li><a href="{{route('news')}}">News</a></li>
+          <li><a href="{{ url('/') }}">COMICS</a></li>
+          <li><a href="{{route('characters')}}">CHARACTERS</a></li>
+          <li><a href="{{route('games')}}">GAMES</a></li>
+          <li><a href="{{route('news')}}">NEWS</a></li>
         </ul>
       </nav>
     </div>

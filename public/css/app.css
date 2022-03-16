@@ -283,6 +283,7 @@ header ul li {
 header ul li a {
   padding: 10px;
   color: black;
+  font-size: 16px;
 }
 header ul li a:hover {
   border-bottom: 3px solid #0c7cec;

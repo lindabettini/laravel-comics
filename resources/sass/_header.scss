@@ -7,7 +7,6 @@ header {
     }
     #bottom-header {
         height: 80px;
-
         nav {
             height: 100%;
             display: flex;
@@ -24,6 +23,7 @@ header {
         li a {
             padding: 10px;
             color: black;
+            font-size: 16px;
             &:hover {
                 border-bottom: 3px solid $main-color;
             }
