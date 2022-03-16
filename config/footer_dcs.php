@@ -1,4 +1,4 @@
 <?php
 return [
-  'Terms Of Use', 'Privacy Policy (New)', 'Ad Choices', 'Advertising', 'Jobs', 'Subscriptions', 'Ratings', 'Terms Of Use', 'Privacy Policy (New)', 'Contact Us'
+  'Terms Of Use', 'Privacy Policy (New)', 'Ad Choices', 'Advertising', 'Jobs', 'Subscriptions', 'Ratings', 'Terms Of Use', 'Privacy Policy', 'Contact Us'
 ];

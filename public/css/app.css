@@ -334,44 +334,45 @@ header img {
 
 #middle-footer {
   height: 100%;
-  background-image: url(../assets/img/footer-bg.jpg);
+  background-image: url("../images/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  max-height: 400px;
 }
-
-.container .col-6 {
-  width: 50%;
-  height: 300px;
+#middle-footer p {
+  color: grey;
+  font-size: 10px;
+  padding-right: 50px;
 }
-
-.nav-list {
-  width: 26.6666666667%;
-  height: 100%;
+#middle-footer #footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+#middle-footer #footer-nav .nav-list {
   padding: 30px 10px;
 }
-.nav-list h5 {
+#middle-footer #footer-nav .nav-list h5 {
   color: white;
 }
-.nav-list ul {
+#middle-footer #footer-nav .nav-list ul {
   list-style-type: none;
   margin-bottom: 30px;
 }
-.nav-list ul li a {
+#middle-footer #footer-nav .nav-list ul li a {
   color: grey;
   font-size: 10px;
 }
-.nav-list ul li a:hover {
+#middle-footer #footer-nav .nav-list ul li a:hover {
   text-decoration: underline;
 }
 
-#footer-nav {
-  display: flex;
-}
-
-#col-logo {
-  background-image: url(../assets/img/dc-logo-bg.png);
-  background-position: center;
+#colon-logo {
+  height: 400px;
+  width: 100%;
+  background-image: url("../images/dc-logo-bg.png");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #bottom-footer {
