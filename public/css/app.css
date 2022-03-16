@@ -309,26 +309,25 @@ header img {
   justify-content: center;
   align-items: center;
 }
-
-ul {
+#top-footer ul {
   height: 100%;
   list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-ul li {
+#top-footer ul li {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
-ul li img {
+#top-footer ul li img {
   width: auto;
   height: 40px;
   margin: 5px;
 }
-ul li a {
+#top-footer ul li a {
   color: white;
   font-size: 10px;
 }

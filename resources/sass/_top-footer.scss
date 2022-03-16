@@ -4,27 +4,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-ul {
-    height: 100%;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    li {
+    ul {
+        height: 100%;
+        list-style-type: none;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 20px;
-        img {
-            width: auto;
-            height: 40px;
-            margin: 5px;
-        }
-        a {
-            color: white;
-            font-size: 10px;
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            img {
+                width: auto;
+                height: 40px;
+                margin: 5px;
+            }
+            a {
+                color: white;
+                font-size: 10px;
+            }
         }
     }
 }
