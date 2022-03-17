@@ -8,16 +8,16 @@ Route::get('/', function () {
 })->name('home');
 
 //PRODOTTI
-Route::get('/products', function () {
+Route::get('/comics', function () {
     $comics = config('comics_data');
-    return view('products', compact('comics'));
-})->name('products');
+    return view('comics', compact('comics'));
+})->name('comics');
 
 //SINGOLO PRODOTTO
-Route::get('/product', function () {
+Route::get('/comics/{id}', function () {
     $comics = config('comics_data');
-    return view('product', compact('comics'));
-})->name('product');
+    return view('comic', compact('comics'));
+})->name('comic');
 
 Route::get('/characters', function () {
     return view('characters');
