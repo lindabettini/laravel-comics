@@ -23,7 +23,7 @@ $links = config('main_menu');
         <ul>
           @foreach ($links as $link)
           <li>
-            <a href="{{route($link['route_name'])}}">{{$link['title']}}</a>
+            <a class="{{ Request::route()->getName() === $link['route_name'] ? 'active' : ''}}" href="{{route($link['route_name'])}}">{{$link['title']}}</a>
           </li>
           @endforeach
         </ul>

@@ -13,18 +13,17 @@ header {
             justify-content: space-between;
             align-items: center;
         }
-    }
-
-    ul {
-        list-style-type: none;
-        li {
-            display: inline-block;
-        }
-        li a {
-            padding: 10px;
-            color: black;
-            font-size: 16px;
-            &:hover {
+        ul {
+            list-style-type: none;
+            li {
+                display: inline-block;
+            }
+            li a {
+                padding: 10px;
+                color: black;
+                font-size: 16px;
+            }
+            a.active {
                 border-bottom: 3px solid $main-color;
             }
         }

@@ -304,18 +304,18 @@ header #bottom-header nav {
   justify-content: space-between;
   align-items: center;
 }
-header ul {
+header #bottom-header ul {
   list-style-type: none;
 }
-header ul li {
+header #bottom-header ul li {
   display: inline-block;
 }
-header ul li a {
+header #bottom-header ul li a {
   padding: 10px;
   color: black;
   font-size: 16px;
 }
-header ul li a:hover {
+header #bottom-header ul a.active {
   border-bottom: 3px solid #0c7cec;
 }
 header img {
