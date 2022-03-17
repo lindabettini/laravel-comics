@@ -1,10 +1,3 @@
-@extends('layout.main')
-
-@php
-$comics = config('comics_data');
-@endphp
-
-@section('main')
 <section id="comics">
   <div class="container">
     <div class="row content-center">
@@ -22,4 +15,3 @@ $comics = config('comics_data');
     </div>
   </div>
 </section>
-@stop
