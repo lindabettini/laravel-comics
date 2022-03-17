@@ -1,12 +1,12 @@
 <section id="comics">
   <div class="container">
     <div class="row content-center">
-      @foreach ($comics as $comic)
+      @foreach ($comics as $index => $comic)
       <div class="col-2">
         <div class="comic-card">
-          <figure>
+          <a href="{{ route('comic', ['id'=> $index])}}">
             <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
-          </figure>
+          </a>
           <a href="#">{{$comic['title']}}</a>
         </div>
       </div>
