@@ -296,7 +296,7 @@ header #top-header {
   color: white;
 }
 header #bottom-header {
-  height: 80px;
+  height: 100px;
 }
 header #bottom-header nav {
   height: 100%;
@@ -319,7 +319,8 @@ header ul li a:hover {
   border-bottom: 3px solid #0c7cec;
 }
 header img {
-  width: 60px;
+  width: 70px;
+  margin-right: 30px;
 }
 
 #top-footer {

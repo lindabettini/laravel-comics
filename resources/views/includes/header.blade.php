@@ -18,7 +18,7 @@ $links = config('main_menu');
     <div class="col">
       <nav id="bottom-header" class="d-flex content-center align-center">
         <figure>
-          <img class="m-2" src="../images/dc-logo.png" alt="DC logo" />
+          <img src="../images/dc-logo.png" alt="DC logo" />
         </figure>
         <ul>
           @foreach ($links as $link)
