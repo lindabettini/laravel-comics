@@ -1,7 +1,7 @@
-@exstends('layout.main')
+@extends('layout.main')
 
-@section('content')
+@section('main')
 <div id="product-detail" class="container">
-  <h1>{{}}</h1>
+  <h1>{{$comic['title']}}</h1>
 </div>
 @endsection

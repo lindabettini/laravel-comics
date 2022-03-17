@@ -16,7 +16,8 @@ Route::get('/comics', function () {
 //SINGOLO PRODOTTO
 Route::get('/comics/{id}', function ($id) {
     $comics = config('comics_data');
-    return view('comic', compact('comics'));
+    $comic = $comics[$id];
+    return view('comic', compact('comic'));
 })->name('comic');
 
 Route::get('/characters', function () {

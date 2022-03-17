@@ -5,11 +5,11 @@
     </div>
     <div id="socials" class="col-6">
       <h3>FOLLOW US</h3>
-      <a href="#"><img src="images/footer-facebook.png" alt="Facebook" /></a>
-      <a href="#"><img src="images/footer-twitter.png" alt="Tiwitter" /></a>
-      <a href="#"><img src="images/footer-youtube.png" alt="Facebook" /></a>
-      <a href="#"><img src="images/footer-pinterest.png" alt="Facebook" /></a>
-      <a href="#"><img src="images/footer-periscope.png" alt="Facebook" /></a>
+      <a href="#"><img src="{{asset('images/footer-facebook.png')}}" alt="Facebook" /></a>
+      <a href="#"><img src="{{asset('images/footer-twitter.png')}}" alt="Twitter" /></a>
+      <a href="#"><img src="{{asset('images/footer-youtube.png')}}" alt="Facebook" /></a>
+      <a href="#"><img src="{{asset('images/footer-pinterest.png')}}" alt="Facebook" /></a>
+      <a href="#"><img src="{{asset('images/footer-periscope.png')}}" alt="Facebook" /></a>
     </div>
   </div>
 </div>
