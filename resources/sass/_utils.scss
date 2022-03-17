@@ -13,6 +13,12 @@
     margin: 0 auto;
 }
 
+.container-800 {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 //~**** ROW *****/
 
 .row {
@@ -115,7 +121,7 @@
     display: block;
 }
 
-//ç** Display Flex  ***/
+//ç** Display Flex  ***
 
 .d-line-flex {
     display: inline-flex;
@@ -131,7 +137,7 @@
     flex-direction: column;
 }
 
-//~**** ALIGNMENT UTILITIES *****
+//~*** ALIGNMENT UTILITIES ***
 
 //ç Flex alignement ***
 
@@ -289,4 +295,20 @@ button.primary-btn {
 
 .m-5 {
     margin: 30px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+// ~ BORDERS
+
+.b-1 {
+    border: 1px solid black;
+}
+
+// ~ WIDTH
+
+.w-100 {
+    width: 100%;
 }

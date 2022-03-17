@@ -35,6 +35,12 @@ a {
   margin: 0 auto;
 }
 
+.container-800 {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -289,6 +295,18 @@ button.primary-btn {
   margin: 30px;
 }
 
+.mt-2 {
+  margin-top: 20px;
+}
+
+.b-1 {
+  border: 1px solid black;
+}
+
+.w-100 {
+  width: 100%;
+}
+
 header #top-header {
   height: 40px;
   width: 100%;
@@ -457,4 +475,12 @@ header img {
 .comic-card a {
   color: white;
   text-decoration: none;
+}
+
+.price-box {
+  width: 100%;
+  background-color: rgba(0, 128, 0, 0.383);
+}
+.price-box .b-1 {
+  padding: 10px 30px;
 }
