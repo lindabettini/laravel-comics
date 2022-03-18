@@ -25,7 +25,10 @@
         <h3>Talent</h3>
         <hr>
         <h5>Art by:</h5>
-        <a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur eligendi excepturi, quis repellat debitis laborum rem vel. </a>
+
+        @foreach ($comic as $artists => $list)
+        <a href="#">{{$list}}</a>
+        @endforeach
       </div>
       <hr>
       <div class="p-3">

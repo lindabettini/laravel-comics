@@ -17,7 +17,7 @@ Route::get('/comics', function () {
 Route::get('/comics/{id}', function ($id) {
     $comics = config('comics_data');
     $comic = $comics[$id];
-    return view('comic', compact('comic'));
+    return view('comic', compact('comic', 'artists'));
 })->name('comic');
 
 Route::get('/characters', function () {
