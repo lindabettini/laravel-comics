@@ -25,15 +25,16 @@
         <h3>Talent</h3>
         <hr>
         <h5>Art by:</h5>
-
-        @foreach ($comic as $artists => $list)
-        <a href="#">{{$list}}</a>
+        @foreach ($comic['artists'] as $artists)
+        <a href="#">{{$artists}}</a>
         @endforeach
       </div>
       <hr>
       <div class="p-3">
-        <h5>Written by::</h5>
-        <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde animi, ullam cum pariatur optio error quidem! Deleniti, neque delectus odio dolores ad perferendis. Nihil, natus suscipit vero dignissimos blanditiis animi?</a>
+        <h5>Written by:</h5>
+        @foreach ($comic['writers'] as $writers)
+        <a href="#">{{$writers}}</a>
+        @endforeach
       </div>
     </div>
     <div class="col-6 p-3">
